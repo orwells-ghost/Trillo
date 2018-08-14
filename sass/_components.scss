@@ -231,6 +231,11 @@
         @media only screen and (max-width: $bp-smallest) {
             top: 4rem;
         }
+
+        @media only screen and (max-width: $bp-extra-small) {
+            width: 650%;
+        }
+
         &-list {
             display: flex;
             flex-direction: column;
